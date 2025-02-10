@@ -1,0 +1,65 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: inherit;
+    border: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    gap: 150px;
+}
+header h1{
+    color: #171725;
+    font-weight: 700;
+    margin: 0;
+}
+.center-tabs{
+    display: flex;
+    justify-content: flex-start;
+    gap: 36px;
+    flex: 1;
+}
+.center-tabs a{
+    color: #171725;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
+}
+.header-right svg{
+    vertical-align: middle;
+}
+.header-r-action{
+    display: flex;
+    gap: 24px;
+}
+.search{
+    text-align: center;
+}
+.header-r-action > button{
+    color: white;
+    background-color: #B43FEB;
+    border-radius: 24px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+
+@media screen and (max-width: 1305px) {
+    header{
+        gap: 80px;
+        flex: 2;
+    }
+}
