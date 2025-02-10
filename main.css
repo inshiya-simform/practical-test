@@ -114,7 +114,12 @@ details {
   background-color: white;
   display: flex;
 }
-
+.main-section-right > main {
+  overflow-y: scroll;
+}
+.main-section-right > main::-webkit-scrollbar {
+  display: none;
+}
 .img-container {
   width: fit-content;
   position: relative;
@@ -178,6 +183,7 @@ details {
   vertical-align: middle;
 }
 
+/* story line section  */
 .story-line {
   padding: 3px 32px;
   width: 1000px;
@@ -194,6 +200,36 @@ details {
   text-overflow: ellipsis;
   font-weight: 500;
   font-size: 16px;
+  color: #9ca4ab;
+}
+
+/* top cast section  */
+.top-cast {
+  padding: 3px 32px;
+}
+.top-cast > div {
+  display: flex;
+  gap: 24px;
+}
+.top-cast h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #171725;
+  margin-bottom: 16px;
+}
+.profile-card {
+  display: flex;
+  gap: 12px;
+}
+.profile-card h5 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: #171725;
+}
+.profile-card p {
+  font-weight: 500;
+  font-size: 12px;
   color: #9ca4ab;
 }
 
