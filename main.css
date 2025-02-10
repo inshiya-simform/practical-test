@@ -56,6 +56,44 @@ header h1{
     font-weight: 600;
     padding: 8px 25px;
 }
+section > aside{
+    background-color: #F9F9F9;
+    padding: 46px 0px;
+    height: 100vh;
+}
+
+.dark-mode{
+    display: flex;
+}
+.aside-action{
+    display: flex;
+    gap: 20px;
+    padding-left: 32px;
+    margin-bottom: 16px;
+}
+#selected{
+    border-left: 4px solid #B43FEB;
+}
+#selected p{
+    color: #171725;
+}
+.aside-action p{
+    margin: 0;
+    font-weight: 600;
+    color: #78828A;
+    font-size: 0.9rem;
+}
+summary{
+    font-weight: 500;
+    color: #9CA4AB;
+    font-size: 0.9rem;
+    list-style: none;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+details{
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1305px) {
     header{
