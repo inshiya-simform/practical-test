@@ -132,8 +132,15 @@ details {
 .img-child {
   position: absolute;
   bottom: 6%;
-  left: 6%;
-  width: 1000px;
+  left: 10%;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+.img-child p{
+    color: white;
+    margin: 0;
+    vertical-align: middle;
 }
 
 /* movie description section  */
@@ -235,51 +242,52 @@ details {
 }
 
 /* recommendation section  */
-.recommendations{
-    padding: 3px 32px;
-    text-align: center;
+.recommendations {
+  padding: 3px 32px;
+  text-align: center;
 }
-.recommendations > div{
-    padding: 0px 15px;
+.recommendations > div {
+  padding: 0px 15px;
 }
-.recommendations > h3{
-    margin: 0;
-    padding: 32px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #171725;
+.recommendations > h3 {
+  margin: 0;
+  padding: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #171725;
 }
-.recommendations h5,p{
-    margin: 0;
-    padding: 0;
+.recommendations h5,
+p {
+  margin: 0;
+  padding: 0;
 }
-.movie-card{
-    margin-bottom: 24px;
+.movie-card {
+  margin-bottom: 24px;
 }
-.movie-card h5{
-    font-size: 16px;
-    text-align: left;
-    margin-left: 35px;
+.movie-card h5 {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 35px;
 }
-.movie-card div{
-    display: flex;
-    text-align: left;
-    margin-left: 35px;
+.movie-card div {
+  display: flex;
+  text-align: left;
+  margin-left: 35px;
 }
-.movie-card div img{
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
+.movie-card div img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
-.movie-card p{
-    font-weight: 500;
-    font-size: 12px;
-    height: 20px;
-    color: #78828A;
+.movie-card p {
+  font-weight: 500;
+  font-size: 12px;
+  height: 20px;
+  color: #78828a;
 }
-.recommendations a{
-    color: #B43FEB;
-    font-size: 16px;
+.recommendations a {
+  color: #b43feb;
+  font-size: 16px;
 }
 
 /* media queries  */
