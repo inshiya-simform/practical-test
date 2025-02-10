@@ -297,3 +297,8 @@ p {
     flex: 2;
   }
 }
+@media screen and (max-width: 1450px) {
+    .img-parent{
+        width: 900px;
+    }
+}
