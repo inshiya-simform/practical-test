@@ -4,183 +4,203 @@
   font-size: 1.1rem;
   line-height: 1.5rem;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-p,h1{
-    margin: 0;
+p,
+h1 {
+  margin: 0;
 }
-button{
-    background-color: inherit;
-    border: none;
+button {
+  background-color: inherit;
+  border: none;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 22px;
-    gap: 150px;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px;
+  gap: 150px;
 }
-header h1{
-    color: #171725;
-    font-weight: 700;
-    margin: 10px;
+header h1 {
+  color: #171725;
+  font-weight: 700;
+  margin: 10px;
 }
-.center-tabs{
-    display: flex;
-    justify-content: flex-start;
-    gap: 36px;
-    flex: 1;
-    margin-left: 25px;
-    align-items: center;
+.center-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 36px;
+  flex: 1;
+  margin-left: 25px;
+  align-items: center;
 }
-.center-tabs a{
-    color: #171725;
-    font-size: 0.9rem;
-    font-weight: 400;
+.center-tabs a {
+  color: #171725;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
-.center-tabs a:hover{
-    color: #B43FEB;
+.center-tabs a:hover {
+  color: #b43feb;
 }
-.header-right{
-    display: flex;
-    justify-content: space-around;
-    flex: 0.5;
+.header-right {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.5;
 }
-.header-right svg{
-    vertical-align: middle;
+.header-right svg {
+  vertical-align: middle;
 }
-.header-r-action{
-    display: flex;
-    gap: 24px;
+.header-r-action {
+  display: flex;
+  gap: 24px;
 }
-.search{
-    text-align: center;
+.search {
+  text-align: center;
 }
-.header-r-action > button{
-    color: white;
-    background-color: #B43FEB;
-    border-radius: 24px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    padding: 8px 25px;
+.header-r-action > button {
+  color: white;
+  background-color: #b43feb;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 25px;
 }
-.header-r-action > button:hover{
-    color: #B43FEB;
-    background-color: white;
+.header-r-action > button:hover {
+  color: #b43feb;
+  background-color: white;
 }
-section > aside{
-    background-color: #F9F9F9;
-    padding: 46px 30px 46px 0px;
-    height: 100vh;
-}
-
-.dark-mode{
-    display: flex;
-}
-.aside-action{
-    display: flex;
-    gap: 20px;
-    padding-left: 32px;
-    margin-bottom: 16px;
-}
-#selected{
-    border-left: 4px solid #B43FEB;
-}
-#selected p{
-    color: #171725;
-}
-.aside-action p{
-    margin: 0;
-    font-weight: 600;
-    color: #78828A;
-    font-size: 0.9rem;
-}
-summary{
-    font-weight: 500;
-    color: #9CA4AB;
-    font-size: 0.9rem;
-    list-style: none;
-    margin-left: 32px;
-    margin-bottom: 16px;
-}
-details{
-    margin-bottom: 50px;
-}
-.main-section{
-    display: flex;
-}   
-.main-section-right{
-    background-color: white;
-    display: flex;
+section > aside {
+  background-color: #f9f9f9;
+  padding: 46px 30px 46px 0px;
+  height: 100vh;
 }
 
-.img-container{
-    width: fit-content;
-    position: relative;
-    padding: 3px 32px;
+.dark-mode {
+  display: flex;
 }
-.img-parent{
-    width: 1100px;
+.aside-action {
+  display: flex;
+  gap: 20px;
+  padding-left: 32px;
+  margin-bottom: 16px;
 }
-.img-child{
-    position: absolute;
-    bottom: 6%;
-    left: 6%;
-    width: 1000px;
+#selected {
+  border-left: 4px solid #b43feb;
+}
+#selected p {
+  color: #171725;
+}
+.aside-action p {
+  margin: 0;
+  font-weight: 600;
+  color: #78828a;
+  font-size: 0.9rem;
+}
+summary {
+  font-weight: 500;
+  color: #9ca4ab;
+  font-size: 0.9rem;
+  list-style: none;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+details {
+  margin-bottom: 50px;
+}
+.main-section {
+  display: flex;
+}
+.main-section-right {
+  background-color: white;
+  display: flex;
+}
+
+.img-container {
+  width: fit-content;
+  position: relative;
+  padding: 3px 32px;
+}
+.img-parent {
+  width: 1100px;
+}
+.img-child {
+  position: absolute;
+  bottom: 6%;
+  left: 6%;
+  width: 1000px;
 }
 
 /* movie description section  */
-.movie-desc{
-    padding: 3px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.movie-desc {
+  padding: 3px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.desc-left h1{
-    font-weight: 700;
-    font-size: 24px;
-    color: #171725;
-    margin: 12px 0px;
+.desc-left h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #171725;
+  margin: 12px 0px;
 }
-.movie-genre{
-    margin: 12px 0px;
+.movie-genre {
+  margin: 12px 0px;
 }
-.movie-genre p{
-    font-weight: 500;
-    font-size: 12px;
-    color: #78828A;
-    display: inline;
-    vertical-align: top;   
+.movie-genre p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #78828a;
+  display: inline;
+  vertical-align: top;
 }
-.movie-rating b{
-    font-weight: 600;
-    font-size: 0.9rem;
-    vertical-align: top;
-    color: #171725;
+.movie-rating b {
+  font-weight: 600;
+  font-size: 0.9rem;
+  vertical-align: top;
+  color: #171725;
 }
-.btn-white{
-    border:1px solid #E9EBED;
-    border-radius: 16px;
-    margin-right: 8px;
-    padding: 12px 24px;
+.btn-white {
+  border: 1px solid #e9ebed;
+  border-radius: 16px;
+  margin-right: 8px;
+  padding: 12px 24px;
 }
-.btn-white img{
-    vertical-align: middle;
+.btn-white img {
+  vertical-align: middle;
 }
-.btn-red{
-    color: white;
-    background-color: #EB3F5E;
-    border-radius: 16px;
-    padding: 12px 24px;
+.btn-red {
+  color: white;
+  background-color: #eb3f5e;
+  border-radius: 16px;
+  padding: 12px 24px;
 }
-.btn-red img{
-    vertical-align: middle;
+.btn-red img {
+  vertical-align: middle;
+}
+
+.story-line {
+  padding: 3px 32px;
+  width: 1000px;
+}
+.story-line h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #171725;
+  margin-bottom: 16px;
+}
+.story-line p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9ca4ab;
 }
 
 /* media queries  */
 @media screen and (max-width: 1305px) {
-    header{
-        gap: 80px;
-        flex: 2;
-    }
+  header {
+    gap: 80px;
+    flex: 2;
+  }
 }
